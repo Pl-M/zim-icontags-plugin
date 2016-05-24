@@ -13,7 +13,7 @@ More information can be found in [IconTags.txt](IconTags.txt).
 ### How to install
 
 The plugin can be installed like any other plugin for Zim by copying [IconTags.py](IconTags.py) file to the folder with plugins (for more information look at https://github.com/jaap-karssenberg/zim-wiki/wiki/Plugins).     
-To install icons the [Tags_Icons](Tags_Icons) directory should be copied to the zim's 'pixmaps' folder.    
+To install icons the [Tags_Icons](Tags_Icons) directory with all files in it should be copied to the zim's 'pixmaps' folder.    
 
 ### License
 The plugin [IconTags.py](IconTags.py) is released under the GNU GPL version 3.    
