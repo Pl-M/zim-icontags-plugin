@@ -1,2 +1,0 @@
-# zim-icontags-plugin
-
