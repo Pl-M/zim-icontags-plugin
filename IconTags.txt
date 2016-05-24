@@ -1,0 +1,56 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== IconTags Plugin ======
+
+This plugin provides a new Index like panel with icons, tagnames and some other features.
+A new Tagsmanager dialog is added to simplify some basic operations with tags and allow to set icons for pages based on tags. 
+Some other minor options are added.
+
+**Dependencies:** This plugin has no additional dependencies.
+
+===== Plugin options =====
+The option **Enable icon shortcodes** allows to enable icons based on shortcodes in the text.
+The option **Show lines in tree** shows vertical lines in the icIndex panel to visually separate pages and their subpages.
+
+===== Icons =====
+Every page can have its own icon. By default there are only icons to indicate whether a page has subpages or tags. 
+To assign another icon for a page a shortcode should be inserted in the text. This can be done by typing it or selecting in the top menu **Insert-> Insert icon**. 
+If **Enable icon shortcodes** option is enabled in plugin options the selected icon will be shown in the icIndex panel next to the pagename. 
+It is also possible to assign icons based on a tag present on the page (see TagsManager section below) 
+
+===== TagsManager =====
+Tagsmanager is a dialog with the list of all tags sorted by different parameners. 
+To show it press **Alt-2** or choose **Tools-> Tags manager** option in the top menu. 
+You can anytime close the dialog and return back to text by pressing **Esc** button.
+
+Tags manager contains several columns – name of a tag, number of pages containing the tag and an icon assigned to the tag. There are three buttons: 
+**OK** to save changes, 
+**Cancel** to discard changes, 
+**Show Pages** to see pages corresponding to the selected tag, left/right keys can toggle this button.
+
+=== Set icon to tag ===
+If left mouse button is pressed on the icon's column of a tag a popup menu with available icons will appear. A selected icon will be assigned to all pages containing the corresponding tag and will be shown in the icIndex next to the pagename. Don't forget to save changes by pressing **OK** button.
+
+=== Put tag into text ===
+If mouse is double clicked on a tagname it will be inserted into the text at the cursor position. 
+
+=== An example of using TagsManager to put tags into text ===
+Set cursor to the place in the text where you want to see a tag, press **Alt-2** to show TagsManager dialog, choose an appropriate tag with mouse or start typing the name of the tag until the tag will be selected, after that press **Enter** or double click to input tag into the text. Close tagsmanager by pressing **Esc** button.
+
+===== icIndex popup menu =====
+If right mouse button is pressed in the icIndex panel the popup menu will appear. It contains a new **View** with several options.
+Choose **Show only pages with tags** to show in the tree only pages containing tags or/and subpages,
+**Show tags** to show all tags right after the pagename in the tree.
+
+Other options adjust icIndex behaviour on open new pages.
+Choose **Default** to automatically open in the tree subpages of the current page (this is the default behaviour in the Index panel),
+**Collapse other pages** to automatically close all previously opened subpages,
+**Disable** to prevent automatically opening/closing new subpages.
+
+===== Restrictions =====
+Only one icon can be set for a page at a time. 
+Icons set by shortcodes have higher priority over icons set by tags. 
+If there is more than one icon with the same priority level for this page an error icon will be set.
+
+
