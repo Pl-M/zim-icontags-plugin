@@ -19,4 +19,7 @@ To install icons the [Tags_Icons](Tags_Icons) directory with all files in it sho
 The plugin [IconTags.py](IconTags.py) is released under the GNU GPL version 3.    
 Icons are from Tango Desktop Project (http://tango.freedesktop.org/). The Tango base icon theme is released to the Public Domain.
 
+### Screenshots
+![icIndex](Screenshots/IconTags%20plugin%20icIndex.jpg?raw=true)
+![TagsManager](Screenshots/IconTags%20plugin%20TagsManager.jpg?raw=true)
 
