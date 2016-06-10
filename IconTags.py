@@ -386,7 +386,7 @@ class IconsIndexExtension(ObjectExtension):
     def _extract_icons(self, parsetree):
         '''
         Search for icons in the parsetree. 
-        Use 'STRONG' tag - maybe add a separate tag...
+        Use 'STRONG' tag.
         '''
 
         new_icon = False
@@ -477,7 +477,7 @@ class IconTagsPluginWidget(ConnectorMixin, gtk.ScrolledWindow):
             self.treeview.expand_row(path, open_all = False)
 
     def on_open_page(self, ui, page, path):
-        treepath = self.treeview.set_current_page(path, vivificate = True) # uncomment this line after above is deleted
+        treepath = self.treeview.set_current_page(path, vivificate = True)
         self.treeview.get_selection().unselect_all()
 
         if treepath:
