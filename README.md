@@ -2,7 +2,7 @@
 
 This is a plugin for Zim-wiki program (http://zim-wiki.org/).  
 This plugin can be used in Zim 0.63/0.65.      
-It is still in development and can contain bugs, if you find any, please, let me know.
+If you find any bugs, please, let me know.
 
 ### What is this plugin for
 
