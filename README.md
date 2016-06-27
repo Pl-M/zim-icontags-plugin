@@ -12,8 +12,10 @@ More information can be found in [IconTags.txt](IconTags.txt).
 
 ### How to install
 
-The plugin can be installed like any other plugin for Zim by copying [IconTags.py](IconTags.py) file to the folder with plugins (for more information look at https://github.com/jaap-karssenberg/zim-wiki/wiki/Plugins).     
+The plugin can be installed like any other plugin for Zim by copying [IconTags.py](IconTags.py) file to the folder with plugins (for more information look at https://github.com/jaap-karssenberg/zim-wiki/wiki/Plugins). 
+
 To install icons the [Tags_Icons](Tags_Icons) directory with all files in it should be copied to the zim's 'pixmaps' folder.    
+In Windows this folder can be found in Zim's directory (e.g. "C:/Zim Desktop Wiki/data" for version with installer and "C:/Zim Portable/App/ZimDesktopWiki/data" for a portable version); in Linux Mint in "/usr/share/zim/pixmaps".
 
 ### License
 The plugin [IconTags.py](IconTags.py) is released under the GNU GPL version 3.    
