@@ -52,6 +52,7 @@ def _load_icons():
 
     # Icons from directory.
     dir = data_dir(ICONS_DIRECTORY)
+    counter = 0 # to count number of loaded icons
     if dir:
         for file in dir.list('*.png'):
             # not all installs have svg support, so only check png for now..
@@ -62,8 +63,13 @@ def _load_icons():
                 icon = gtk.IconSet(pixbuf)
                 factory.add(icon_name, icon)
                 icons[name] = icon_name
+                counter += 1
             except:
                 logger.error('IconTags: Error while loading icons.')
+        logger.debug('IconTags: {} icons loaded from: {}'.format(counter, dir.path))
+    else:
+        logger.debug('''IconTags: Folder with icons doesn't exist.''')
+                
     return icons
 
 class Render_Icon():
