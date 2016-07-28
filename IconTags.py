@@ -129,7 +129,7 @@ ICONS = _load_icons() # init and load all icons
 # Bold is used to look for icons amidst all elements in bold.
 STRONG_MARKUP = '**'
 PREFIX, POSTFIX = '[ICON=', ']'
-ICON_RE = re.compile(r'(?<=\{})\w+(?={})'.format(PREFIX, POSTFIX), re.U)
+ICON_RE = re.compile(r'(?<=\{}).*?(?={})'.format(PREFIX, POSTFIX), re.U)
 
 TAGSMANAGER_KEY ='<alt>2'
 
