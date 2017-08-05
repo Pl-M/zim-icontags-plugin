@@ -1,7 +1,9 @@
 # zim-icontags-plugin
 
 This is a plugin for Zim-wiki program (http://zim-wiki.org/).  
-This plugin can be used in Zim 0.63/0.65.      
+This plugin can be used in Zim 0.63/0.65.
+
+**The support of Zim 0.67 will be added later.**
 
 ### What is this plugin for
 This plugin provides a new Index like panel with some new features:
