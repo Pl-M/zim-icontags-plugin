@@ -4,7 +4,11 @@ This is a plugin for Zim-wiki program (http://zim-wiki.org/).
 This plugin can be used in Zim 0.63/0.65.      
 
 ### What is this plugin for
-This plugin provides a new Index like panel with icons, tagnames and some other features.    
+This plugin provides a new Index like panel with some new features:
+* icons for every page set individually or based on available tags
+* tags near a pagename
+* onclick actions in the panel to auto close other opened elements
+
 A new Tagsmanager dialog is added to simplify some basic operations with tags and allow to set icons for pages based on tags. 
 More information can be found in [IconTags.txt](IconTags.txt).
 
